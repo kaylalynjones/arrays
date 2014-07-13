@@ -36,10 +36,9 @@ while(response != 'q'){
 
 console.log(numbers);
 
-var sum = numbers[0];
-for (var k=1; k < numbers.length; k++){
-  
-  sum += numbers[k]; 
+var sum = 0;
+for (var k=0; k < numbers.length; k++){
+  sum += numbers[k];
 };
 
 console.log(sum);
